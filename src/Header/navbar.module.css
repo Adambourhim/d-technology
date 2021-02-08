@@ -1,6 +1,19 @@
-.headBar {
+.navHead {
   display: flex;
-  align-items: center;
-  max-width: 1125px;
-  margin: 0px auto;
+  align-content: center;
+  width: 1125px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.logo {
+  align-self: center;
+  background-color: coral;
+}
+.list {
+  align-self: center;
+  background-color: crimson;
+}
+.icon {
+  align-self: center;
+  background-color: cyan;
 }

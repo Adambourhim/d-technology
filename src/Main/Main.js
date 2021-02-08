@@ -59,6 +59,12 @@ function Main() {
               src={icon1}
               alt="icon1"
             />
+            <p className={styles.titleProduct}>Our Product</p>
+            <p className={styles.discProduct}>
+              Our product is made on the base of our team’s careful research and
+              analyses, ranging from internet based application.
+            </p>
+            <button className={styles.btn2}>Read More</button>
           </div>
           <div className={styles.box7}>
             <img
@@ -66,6 +72,13 @@ function Main() {
               src={icon2}
               alt="icon2"
             />
+            <p className={styles.titleProduct}>Our Service</p>
+            <p className={styles.discProduct}>
+              DSI’s shared service solutions focus on the front-end based
+              software development, designed specifically for the banking and
+              financial sectors.
+            </p>
+            <button className={styles.btn2}>Read More</button>
           </div>
           <div className={styles.box8}>
             <img
@@ -73,6 +86,13 @@ function Main() {
               src={icon3}
               alt="icon3"
             />
+            <p className={styles.titleProduct}>Our Technology</p>
+            <p className={styles.discProduct}>
+              First JAVA, runs on more than 850 million personal computers
+              worldwide, and on billions of devices worldwide, including mobile
+              and TV devices.
+            </p>
+            <button className={styles.btn2}>Read More</button>
           </div>
         </div>
       </div>
