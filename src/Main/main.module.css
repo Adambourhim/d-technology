@@ -4,14 +4,16 @@
 .container {
   display: flex;
   justify-content: space-between;
-  max-width: 1125px;
-  margin: auto;
+  max-width: 80%;
+  margin: 0px auto;
+  flex-direction: column;
 }
 .box1 {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   width: 507px;
+  background-color: blue;
 }
 .title {
   font-style: normal;
@@ -36,6 +38,7 @@
 }
 .box2 {
   display: flex;
+  background-color: blueviolet;
 }
 .pana {
   position: relative;
@@ -139,4 +142,13 @@
   line-height: 144.69%;
   color: white;
   border: 0;
+}
+@media (max-with: 900px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0px auto;
+    flex-direction: column;
+  }
 }
