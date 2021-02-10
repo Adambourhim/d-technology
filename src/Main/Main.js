@@ -7,96 +7,22 @@ import icon2 from "../Images/verified 1.svg";
 import icon3 from "../Images/verified 1.svg";
 function Main() {
   return (
-    <Fragment>
-      <div className={styles.container}>
-        <div className={styles.box1}>
-          <p className={styles.title}>
-            Making the most of the ever-growing{" "}
-            <span style={{ color: "#EE4248" }}>Information Technology</span>
-          </p>
-          <p style={{ fontSize: "20px", color: "#30444E", lineHeight: "1.5" }}>
-            Managed by a team of professional experts with extensive experience
-            and impressive track records
-          </p>
-          <button className={styles.btn}>Read More</button>
-        </div>
-        <div className={styles.box2}>
-          <img className={styles.pana} src={pana1} alt="pana" />
-        </div>
+    <div className={styles.container}>
+      <div className={styles.box1}>
+        <p className={styles.title}>
+          Making the most of the ever-growing{" "}
+          <span style={{ color: "#EE4248" }}>Information Technology</span>
+        </p>
+        <p style={{ fontSize: "20px", color: "#30444E", lineHeight: "1.5" }}>
+          Managed by a team of professional experts with extensive experience
+          and impressive track records
+        </p>
+        <button className={styles.btn}>Read More</button>
       </div>
-      <div className={styles.container2}>
-        <div className={styles.box3}>
-          <img className={styles.pana2} src={pana2} alt="" />
-        </div>
-        <div className={styles.box4}>
-          <p className={styles.title2}>
-            Welcome to{" "}
-            <span style={{ color: "#EE4248" }}>
-              Dwidasa Samsara Indonesia (DSI)
-            </span>
-          </p>
-          <p className={styles.disc}>
-            Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by
-            the founders, who each of them has a common end objective to
-            innovate new creations by making the most of the ever-growing
-            information technology through{" "}
-            <span style={{ color: "#EE4248" }}>DSI</span>’s distinct front-end
-            based application concept.
-            <br /> Managed by a team of professional experts with extensive
-            experience and impressive track records,{" "}
-            <span style={{ color: "#EE4248" }}>DSI</span> believes that
-            continuous improvements and innovations assure your business to run
-            effectively and efficiently.
-          </p>
-        </div>
+      <div className={styles.box2}>
+        <img className={styles.pana} src={pana1} alt="pana" />
       </div>
-      <div className={styles.container3}>
-        <p className={styles.box5}>Product and Service</p>
-        <div className={styles.boxes}>
-          <div className={styles.box6}>
-            <img
-              style={{ width: "100px", height: "100px" }}
-              src={icon1}
-              alt="icon1"
-            />
-            <p className={styles.titleProduct}>Our Product</p>
-            <p className={styles.discProduct}>
-              Our product is made on the base of our team’s careful research and
-              analyses, ranging from internet based application.
-            </p>
-            <button className={styles.btn2}>Read More</button>
-          </div>
-          <div className={styles.box7}>
-            <img
-              style={{ width: "100px", height: "100px" }}
-              src={icon2}
-              alt="icon2"
-            />
-            <p className={styles.titleProduct}>Our Service</p>
-            <p className={styles.discProduct}>
-              DSI’s shared service solutions focus on the front-end based
-              software development, designed specifically for the banking and
-              financial sectors.
-            </p>
-            <button className={styles.btn2}>Read More</button>
-          </div>
-          <div className={styles.box8}>
-            <img
-              style={{ width: "100px", height: "100px" }}
-              src={icon3}
-              alt="icon3"
-            />
-            <p className={styles.titleProduct}>Our Technology</p>
-            <p className={styles.discProduct}>
-              First JAVA, runs on more than 850 million personal computers
-              worldwide, and on billions of devices worldwide, including mobile
-              and TV devices.
-            </p>
-            <button className={styles.btn2}>Read More</button>
-          </div>
-        </div>
-      </div>
-    </Fragment>
+    </div>
   );
 }
 
