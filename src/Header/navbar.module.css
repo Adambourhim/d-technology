@@ -10,7 +10,6 @@
   color: #333;
   margin: 0px auto;
   width: 80%;
-  border: 1px solid black;
 }
 
 .title {
@@ -64,11 +63,17 @@
 .icon img {
   margin: 0px 10px;
 }
-@media (max-width: 900px) {
+
+@media (max-width: 1204) {
+  .icon img {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
   .navbar {
     margin: auto;
-    width: 80%;
-    background-color: blue;
+    width: 90%;
   }
 
   .button {
@@ -98,6 +103,5 @@
   }
   .icon img {
     display: none;
-    margin: 0px 3px;
   }
 }
