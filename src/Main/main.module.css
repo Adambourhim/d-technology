@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 80%;
-  margin: 0px auto;
+  margin: auto;
 }
 .box1 {
   display: flex;
@@ -41,114 +41,43 @@
   width: 562.97px;
   height: 366.61px;
 }
-.container2 {
-  display: flex;
-  margin: 0px auto;
-  background-color: #f7f7f7;
-  width: 1440px;
-  height: 500px;
-  margin-top: 90px;
-}
-.box3 {
-  display: flex;
-  margin: 0px auto;
-  width: 1125px;
-}
-.pana2 {
-  position: relative;
-  width: 826.97px;
-  height: 382.61px;
-}
-.box4 {
-  position: relative;
-  margin-right: 222px;
-  margin-top: 44px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 133.69%;
-}
-.disc {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  color: #30444e;
-  width: 520px;
-  height: 270px;
-}
-.box5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 133.69%;
-  color: #1f2e35;
-  margin-top: 90px;
-}
-.boxes {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1125px;
-  margin: auto;
-}
-.box6 {
-  width: 360px;
-  height: 360px;
-}
-.box7 {
-  width: 360px;
-  height: 360px;
-}
-.box8 {
-  width: 360px;
-  height: 360px;
-}
-.titleProduct {
-  margin-top: 10px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 133.69%;
-  color: #ee4248;
-}
-.discProduct {
-  width: 319px;
-  height: 108px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  color: #30444e;
-}
-.btn2 {
-  background: #ee4248;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  width: 119px;
-  height: 42px;
-  padding: 8px 16px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 144.69%;
-  color: white;
-  border: 0;
-}
+
 @media (max-width: 1100px) {
   .container {
     display: flex;
+    justify-content: center;
     flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 80%;
   }
   .box1 {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
     width: 100%;
   }
-  .pana {
-    justify-self: center;
+  .title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 31px;
+  }
+  .title2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 19px;
+  }
+  .gbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box2 .pana {
+    display: flex;
+    text-align: center;
     width: 100%;
+    margin: 2% auto;
   }
 }

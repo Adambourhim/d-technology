@@ -1,0 +1,56 @@
+* {
+  font-family: Roboto;
+}
+.main2 {
+  display: flex;
+  max-width: 100%;
+  margin: 10% auto;
+  background-color: #f6f6f6;
+  height: 450px;
+}
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 507px;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+.title2 {
+  font-size: 17px;
+  line-height: 150%;
+  color: #30444e;
+}
+.btn {
+  background: #ee4248;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 161px;
+  height: 53px;
+  padding: 10px 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: white;
+  border: 0;
+}
+
+.pana {
+  position: relative;
+  margin-top: 17px;
+  width: 562.97px;
+  height: 366.61px;
+}

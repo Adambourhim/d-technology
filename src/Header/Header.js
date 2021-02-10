@@ -5,6 +5,7 @@ import styles from "./navbar.module.css";
 import union from "../Images/Union.svg";
 import mail from "../Images/mail.svg";
 import media from "../Images/shuffle.svg";
+import edit from "../Images/edit.svg";
 function Header() {
   const toggleButton = document.getElementsByClassName("button")[0];
   const navbarLinks = document.getElementsByClassName("links")[0];
@@ -20,9 +21,7 @@ function Header() {
         <img src={logo} alt="" />
       </div>
       <a href="#" className={styles.button} onClick={show}>
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
+        <img src={edit} alt="" />
       </a>
       <div className={styles.links}>
         <ul>

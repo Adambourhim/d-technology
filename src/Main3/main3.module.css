@@ -1,0 +1,60 @@
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 133.69%;
+  color: #1f2e35;
+  margin-top: 90px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1125px;
+  margin: auto;
+}
+.box6 {
+  width: 360px;
+  height: 360px;
+}
+.box7 {
+  width: 360px;
+  height: 360px;
+}
+.box8 {
+  width: 360px;
+  height: 360px;
+}
+.titleProduct {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #ee4248;
+}
+.discProduct {
+  width: 319px;
+  height: 108px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+.btn2 {
+  background: #ee4248;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 119px;
+  height: 42px;
+  padding: 8px 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 144.69%;
+  color: white;
+  border: 0;
+}
