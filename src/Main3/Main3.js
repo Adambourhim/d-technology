@@ -1,5 +1,8 @@
 import React from "react";
-
+import styles from "./main3.module.css";
+import icon1 from "../Images/product-description 1.svg";
+import icon2 from "../Images/verified 1.svg";
+import icon3 from "../Images/verified 1.svg";
 function Main3() {
   return (
     <div className={styles.container3}>

@@ -2,9 +2,6 @@ import React, { Fragment } from "react";
 import styles from "./main.module.css";
 import pana1 from "../Images/pana.svg";
 
-import icon1 from "../Images/product-description 1.svg";
-import icon2 from "../Images/verified 1.svg";
-import icon3 from "../Images/verified 1.svg";
 function Main() {
   return (
     <div className={styles.container}>

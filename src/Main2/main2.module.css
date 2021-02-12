@@ -6,7 +6,7 @@
   max-width: 100%;
   margin: 10% auto;
   background-color: #f6f6f6;
-  height: 450px;
+  height: 50%;
 }
 .container {
   display: flex;
@@ -50,7 +50,37 @@
 
 .pana {
   position: relative;
-  margin-top: 17px;
+  margin-top: 0px;
   width: 562.97px;
   height: 366.61px;
+}
+@media (max-width: 1100px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .box1 {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+  }
+  .title2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .box2 .pana {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+  }
 }

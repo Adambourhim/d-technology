@@ -16,41 +16,43 @@ function Header() {
   };
 
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.title}>
-        <img src={logo} alt="" />
-      </div>
-      <a href="#" className={styles.button} onClick={show}>
-        <img src={edit} alt="" />
-      </a>
-      <div className={styles.links}>
-        <ul>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Product</a>
-          </li>
-          <li>
-            <a href="#">Technology</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Client</a>
-          </li>
-          <li>
-            <a href="#">Partner</a>
-          </li>
-        </ul>
-      </div>
-      <div className={styles.icon}>
-        <img src={union} alt="" />
-        <img src={mail} alt="" />
-        <img src={media} alt="" />
-      </div>
-    </nav>
+    <div className={styles.header}>
+      <nav className={styles.navbar}>
+        <div className={styles.title}>
+          <img src={logo} alt="" />
+        </div>
+        <a href="#" className={styles.button} onClick={show}>
+          <img src={edit} alt="" />
+        </a>
+        <div className={styles.links}>
+          <ul>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Technology</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Client</a>
+            </li>
+            <li>
+              <a href="#">Partner</a>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.icon}>
+          <img src={union} alt="" />
+          <img src={mail} alt="" />
+          <img src={media} alt="" />
+        </div>
+      </nav>
+    </div>
   );
 }
 
