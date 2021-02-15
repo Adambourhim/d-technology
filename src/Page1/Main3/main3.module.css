@@ -1,11 +1,13 @@
 .box5 {
   display: flex;
   justify-content: center;
+
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 133.69%;
   color: #1f2e35;
+  max-width: 95%;
 }
 .boxes {
   display: flex;

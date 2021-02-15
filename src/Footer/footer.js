@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./footer.module.css";
-import logo from "../Images/DSI.svg";
-import pic1 from "../Images/image 10.svg";
-import pic2 from "../Images/image 11.svg";
-import pic3 from "../Images/image 13.svg";
-import pic4 from "../Images/image 7.svg";
-import pic5 from "../Images/image 9.svg";
-import pic6 from "../Images/image 14.svg";
+import logo from "../Page1/Images/DSI.svg";
+import pic1 from "../Page1/Images/image 10.svg";
+import pic2 from "../Page1/Images/image 11.svg";
+import pic3 from "../Page1/Images/image 13.svg";
+import pic4 from "../Page1/Images/image 7.svg";
+import pic5 from "../Page1/Images/image 9.svg";
+import pic6 from "../Page1/Images/image 14.svg";
 function footer() {
   return (
     <>

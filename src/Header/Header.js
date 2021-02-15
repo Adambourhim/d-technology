@@ -1,33 +1,25 @@
 import React from "react";
-
-import logo from "../Images/DSI.svg";
+import { Link } from "react-router-dom";
+import logo from "../Page1/Images/DSI.svg";
 import styles from "./navbar.module.css";
-import union from "../Images/Union.svg";
-import mail from "../Images/mail.svg";
-import media from "../Images/shuffle.svg";
-import edit from "../Images/edit.svg";
+import union from "../Page1/Images/Union.svg";
+import mail from "../Page1/Images/mail.svg";
+import media from "../Page1/Images/shuffle.svg";
+import edit from "../Page1/Images/edit.svg";
 function Header() {
-  const toggleButton = document.getElementsByClassName("button")[0];
-  const navbarLinks = document.getElementsByClassName("links")[0];
-  const show = () => {
-    toggleButton.addEventListener("click", () => {
-      navbarLinks.classList.toggle("active");
-    });
-  };
-
   return (
     <div className={styles.header}>
       <nav className={styles.navbar}>
         <div className={styles.title}>
           <img src={logo} alt="" />
         </div>
-        <a href="#" className={styles.button} onClick={show}>
+        <a href="#" className={styles.button}>
           <img src={edit} alt="" />
         </a>
         <div className={styles.links}>
           <ul>
             <li>
-              <a href="#">Services</a>
+              <Link to="/Service">Services</Link>
             </li>
             <li>
               <a href="#">Product</a>
