@@ -15,18 +15,7 @@
   max-width: 80%;
   margin: auto;
 }
-.box6 {
-  width: 360px;
-  height: 360px;
-}
-.box7 {
-  width: 360px;
-  height: 360px;
-}
-.box8 {
-  width: 360px;
-  height: 360px;
-}
+
 .titleProduct {
   margin-top: 10px;
   font-style: normal;
@@ -36,8 +25,6 @@
   color: #ee4248;
 }
 .discProduct {
-  width: 319px;
-  height: 108px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

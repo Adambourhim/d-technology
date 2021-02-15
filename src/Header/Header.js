@@ -11,7 +11,9 @@ function Header() {
     <div className={styles.header}>
       <nav className={styles.navbar}>
         <div className={styles.title}>
-          <img src={logo} alt="" />
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <a href="#" className={styles.button}>
           <img src={edit} alt="" />

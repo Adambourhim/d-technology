@@ -6,10 +6,13 @@ function Main() {
   return (
     <div className={styles.container}>
       <div className={styles.box1}>
-        <p className={styles.title}>
-          Making the most of the ever-growing{" "}
-          <span style={{ color: "#EE4248" }}>Information Technology</span>
-        </p>
+        <div>
+          <p className={styles.title}>
+            Making the most of the ever-growing{" "}
+            <span style={{ color: "#EE4248" }}>Information Technology</span>
+          </p>
+        </div>
+
         <p
           className={styles.title2}
           style={{ fontSize: "20px", color: "#30444E", lineHeight: "1.5" }}
