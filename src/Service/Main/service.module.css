@@ -1,0 +1,19 @@
+* {
+  font-family: Roboto;
+}
+.bgImag {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.img1 {
+  display: block;
+  width: 100%;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

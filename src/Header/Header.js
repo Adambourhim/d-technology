@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Page1/Images/DSI.svg";
+import logo from "../HomePage/Images/DSI.svg";
 import styles from "./navbar.module.css";
-import union from "../Page1/Images/Union.svg";
-import mail from "../Page1/Images/mail.svg";
-import media from "../Page1/Images/shuffle.svg";
-import edit from "../Page1/Images/edit.svg";
+import union from "../HomePage/Images/Union.svg";
+import mail from "../HomePage/Images/mail.svg";
+import media from "../HomePage/Images/shuffle.svg";
+import edit from "../HomePage/Images/edit.svg";
 function Header() {
   return (
     <div className={styles.header}>
@@ -24,7 +24,7 @@ function Header() {
               <Link to="/Service">Services</Link>
             </li>
             <li>
-              <a href="#">Product</a>
+              <Link to="/Product">Product</Link>
             </li>
             <li>
               <a href="#">Technology</a>

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.disc {
+  max-width: 100%;
+  display: flex;
+  width: 669px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 133.69%;
+  color: black;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}

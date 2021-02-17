@@ -44,10 +44,6 @@
   padding: 1rem;
 }
 
-.links li:hover {
-  background-color: #555;
-}
-
 .button {
   position: absolute;
   top: 1.1rem;
