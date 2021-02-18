@@ -2,18 +2,69 @@
   display: flex;
   flex-direction: column;
 }
-
-.disc {
+.box1 {
   max-width: 100%;
+  background-color: #ee4248;
+}
+.disc {
   display: flex;
-  width: 669px;
+  height: 50%;
+  width: 49%;
+  text-align: center;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #ffffff;
+}
+.box2 {
+  display: flex;
+  max-width: 80%;
+  flex-direction: row;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+.Global {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+}
+.disc2 {
+  margin-top: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
-  line-height: 133.69%;
-  color: black;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+.dviPic {
+  display: flex;
+  margin-top: 30px;
+}
+@media (max-width: 1100px) {
+  .disc {
+    display: flex;
+    width: 80%;
+    font-size: 5vw;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px auto;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .dviPic img {
+    display: flex;
+    width: 100%;
+  }
 }

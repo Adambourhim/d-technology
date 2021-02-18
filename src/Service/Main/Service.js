@@ -6,7 +6,9 @@ function Service() {
   return (
     <div className={styles.bgImag}>
       <img className={styles.img1} src={line1} alt="" />
-      <h3 className={styles.title}>HELLOOOOO</h3>
+      <div className={styles.title}>
+        Just a smile away from Winning your customer’s trust
+      </div>
     </div>
   );
 }
