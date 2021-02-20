@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from "./HomePage/Homepage";
 import Footer from "./Footer/footer";
-import Service from "./Service/Main/Service";
+import Service from "./Service/Service";
 import Product from "./Product/product";
 import Technology from "./Technology/technology";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";

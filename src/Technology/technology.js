@@ -12,15 +12,11 @@ function technology() {
     <>
       <div className={styles.container}>
         <div className={styles.box1}>
-          <img className={styles.bg} src={pic1} alt="" />
-        </div>
-        <div className={styles.box2}>
+          <div className={styles.FirstTitle}>
+            “Knowledge” some way of future up-to-date in latest technology
+          </div>
           <img className={styles.mac} src={pic2} alt="" />
         </div>
-        {/* <div className={styles.box3}>
-        <h2>“Knowledge” some way of future up-to-date in latest technology</h2>
-        <img className={styles.mac} src={pic2} alt="" />
-      </div>*/}
       </div>
       <div className={styles.container2}>
         <div className={styles.contImg}>

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.box1 {
+  display: flex;
+  max-width: 41%;
+  flex-direction: column;
+}
+.disc {
+  padding-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+@media (max-width: 1100px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .box1 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  .box2 img {
+    display: flex;
+    width: 100%;
+  }
+}
