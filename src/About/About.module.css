@@ -1,0 +1,242 @@
+.container {
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.65);
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.box1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 56px;
+  line-height: 140.69%;
+  color: #30444e;
+  margin: 50px auto;
+}
+.box2 {
+  display: flex;
+  align-self: center;
+}
+.box2 img {
+  display: flex;
+  width: 400px;
+}
+.container2 {
+  display: flex;
+  margin: 50px auto;
+  max-width: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #263238;
+}
+.disc {
+  margin: 20px auto;
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 140.69%;
+  /* or 25px */
+  text-align: justify;
+  color: #263238;
+}
+.container3 {
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.65);
+}
+.container3_box {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.drone {
+  display: flex;
+}
+.future {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 32%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 24px;
+  /* or 133% */
+  letter-spacing: 0.2px;
+
+  color: #263238;
+}
+.divIcon {
+  display: flex;
+  flex-direction: column;
+}
+.sodivIcon {
+  display: flex;
+  margin-top: 30px;
+}
+.sodivIcon h4 {
+  display: flex;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.sodivP {
+  display: flex;
+  width: 100%;
+  margin: 15px 50px;
+}
+.container4 {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #ee4248;
+}
+.section {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.section1 {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.section1 h3 {
+  font-family: Roboto;
+  font-size: 38px;
+  line-height: 140.69%;
+  color: white;
+}
+.discYoutube {
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 140.69%;
+  color: white;
+  width: 77%;
+}
+.section2 {
+  display: flex;
+  align-self: center;
+}
+.container5 {
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #263238;
+}
+.container6 {
+  display: flex;
+  max-width: 80%;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.soInfo {
+  display: flex;
+  width: 80%;
+}
+.discInfo {
+  margin-left: 30px;
+}
+@media (max-width: 1100px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .box1 {
+    display: flex;
+    width: 100%;
+    font-size: 6vw;
+  }
+  .box2 img {
+    display: flex;
+    width: 50vw;
+  }
+  .container3_box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .drone img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 80vw;
+  }
+  .future {
+    display: flex;
+    width: 80%;
+  }
+  .futureTitle {
+    display: flex;
+    font-size: 6vw;
+  }
+  .divIcon {
+    display: flex;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .section1 {
+    max-width: 100%;
+  }
+  .section2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 80vw;
+  }
+  .map img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 80vw;
+  }
+  .container6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .Info {
+    display: flex;
+    margin: 40px auto;
+  }
+  .title {
+    font-size: 7vw;
+  }
+  .discYoutube {
+    display: flex;
+    width: 100%;
+  }
+}

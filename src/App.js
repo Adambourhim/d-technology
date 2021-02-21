@@ -6,6 +6,7 @@ import Footer from "./Footer/footer";
 import Service from "./Service/Service";
 import Product from "./Product/product";
 import Technology from "./Technology/technology";
+import About from "./About/About";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Service" component={Service} />
           <Route path="/Product" component={Product} />
           <Route path="/Technology" component={Technology} />
+          <Route path="/About" component={About} />
         </Switch>
         <Footer />
       </div>

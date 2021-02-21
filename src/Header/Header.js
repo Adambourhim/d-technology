@@ -30,7 +30,7 @@ function Header() {
               <Link to="/Technology">Technology</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/About">About</Link>
             </li>
             <li>
               <a href="#">Client</a>
