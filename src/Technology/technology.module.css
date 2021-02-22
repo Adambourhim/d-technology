@@ -1,26 +1,44 @@
 .box1 {
   display: flex;
-  width: 80%;
-  height: 750px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-image: url(./Images/Group1331.png);
-}
-.box2 {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-top: -10%;
+  height: 53vw;
 }
-.mac {
+.box1Img {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 30%;
 }
+.box1Img img {
+  width: 100vw;
+  object-fit: cover;
+}
+.box1Mac {
+  position: relative;
+  top: -21vw;
+  left: 34vw;
+  width: 0vw;
+}
+.box1Mac img {
+  width: 30vw;
+}
+.box1Text {
+  position: relative;
+  top: -35vw;
+  left: 32vw;
+  font-size: 36px;
+  width: 37vw;
+  color: white;
+  text-align: center;
+}
+.box1Btn {
+  position: relative;
+  top: -32vw;
+  left: 43vw;
+  font-size: 34px;
+  width: 13vw;
+  border-style: none;
+  color: #ee4248;
+  border-radius: 5px;
+}
+
 .FirstTitle {
   display: flex;
   margin-top: -40px;
@@ -68,5 +86,18 @@
 
   .contImg img {
     width: 100%;
+  }
+  .box1 {
+    display: flex;
+    max-width: 100%;
+  }
+  .box1Text {
+    font-size: 3vw;
+  }
+  .box1Btn {
+    font-size: 4vw;
+  }
+  .box1Mac img {
+    width: 36vw;
   }
 }

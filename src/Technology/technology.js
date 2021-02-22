@@ -1,4 +1,5 @@
 import React from "react";
+import bg from "./Images/Group 1331.svg";
 import pic2 from "./Images/@ Macbook Pro.svg";
 import styles from "./technology.module.css";
 import java from "./Images/java.svg";
@@ -9,7 +10,19 @@ import microsoft from "./Images/microsoft.svg";
 function technology() {
   return (
     <>
-      <div className={styles.box1}></div>
+      <div className={styles.box1}>
+        <div className={styles.box1Img}>
+          <img src={bg} alt="" />
+        </div>
+        <div className={styles.box1Text}>
+          “Knowledge” some way of future up-to-date in latest technology
+        </div>
+
+        <button className={styles.box1Btn}>learn More</button>
+        <div className={styles.box1Mac}>
+          <img src={pic2} alt="" />
+        </div>
+      </div>
 
       <div className={styles.container2}>
         <div className={styles.contImg}>
