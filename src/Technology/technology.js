@@ -19,9 +19,8 @@ function technology() {
         </div>
 
         <button className={styles.box1Btn}>learn More</button>
-        <div className={styles.box1Mac}>
-          <img src={pic2} alt="" />
-        </div>
+
+        <img className={styles.box1Mac} src={pic2} alt="" />
       </div>
 
       <div className={styles.container2}>

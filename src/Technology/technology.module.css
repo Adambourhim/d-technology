@@ -10,35 +10,31 @@
   width: 100vw;
   object-fit: cover;
 }
-.box1Mac {
-  position: relative;
-  top: -21vw;
-  left: 34vw;
-  width: 0vw;
-}
-.box1Mac img {
-  width: 30vw;
-}
 .box1Text {
   position: relative;
   top: -35vw;
-  left: 32vw;
-  font-size: 36px;
-  width: 37vw;
+  left: 23vw;
+  font-size: 4vw;
+  width: 60vw;
   color: white;
   text-align: center;
 }
 .box1Btn {
   position: relative;
-  top: -32vw;
-  left: 43vw;
+  top: -31vw;
+  left: 40vw;
   font-size: 34px;
-  width: 13vw;
+  width: 23vw;
   border-style: none;
   color: #ee4248;
   border-radius: 5px;
 }
-
+.box1Mac {
+  position: relative;
+  top: -25vw;
+  left: 34vw;
+  width: 34vw;
+}
 .FirstTitle {
   display: flex;
   margin-top: -40px;
@@ -90,9 +86,6 @@
   .box1 {
     display: flex;
     max-width: 100%;
-  }
-  .box1Text {
-    font-size: 3vw;
   }
   .box1Btn {
     font-size: 4vw;

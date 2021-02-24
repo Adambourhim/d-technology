@@ -7,9 +7,11 @@ import mail from "../HomePage/Images/mail.svg";
 import media from "../HomePage/Images/shuffle.svg";
 import { GrClose } from "react-icons/gr";
 import { GrTextAlignRight } from "react-icons/gr";
+import { IoIosArrowDown } from "react-icons/io";
 
 function Header() {
   const [showbar, setShowbar] = useState(false);
+  const [aboutbar, setAboutbar] = useState(false);
   return (
     <>
       <div className={styles.header}>
@@ -42,7 +44,10 @@ function Header() {
                 <Link to="/Technology">Technology</Link>
               </li>
               <li>
-                <Link to="/About">About</Link>
+                <select className={styles.aboutClient}>
+                  <option value="About">About</option>
+                  <option value="About">About Client</option>
+                </select>
               </li>
               <li>
                 <a href="#">Client</a>
@@ -92,6 +97,11 @@ function Header() {
               </li>
             </ul>
           </div>
+        </div>
+      ) : null}
+      {aboutbar ? (
+        <div className={styles.aboutClient}>
+          <Link>About Client</Link>
         </div>
       ) : null}
     </>
