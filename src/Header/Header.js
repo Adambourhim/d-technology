@@ -44,16 +44,7 @@ function Header() {
                 <Link to="/Technology">Technology</Link>
               </li>
               <li>
-                <select className={styles.aboutClient}>
-                  <option value="About">About</option>
-                  <option value="About">About Client</option>
-                </select>
-              </li>
-              <li>
-                <a href="#">Client</a>
-              </li>
-              <li>
-                <a href="#">Partner</a>
+                <Link to="/About">About</Link>
               </li>
             </ul>
           </div>
