@@ -80,12 +80,6 @@ function Header() {
                   About
                 </Link>
               </li>
-              <li>
-                <a href="#">Client</a>
-              </li>
-              <li>
-                <a href="#">Partner</a>
-              </li>
             </ul>
           </div>
         </div>
