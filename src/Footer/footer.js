@@ -20,9 +20,9 @@ function footer() {
         </div>
         <div className={styles.box2}>
           <h5>Contact</h5>
-          <p>Phone : +62.21.5314.1135</p>
+          <p>Phone : +380.34.86.21.61</p>
           <p>Fax : +62.21.5314.1135</p>
-          <p>Email : adam@gmail.com</p>
+          <p>Email : benbourhim7@gmail.com</p>
         </div>
         <div className={styles.box3}>
           <div className={styles.picture1}>
